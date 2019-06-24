@@ -8,8 +8,7 @@ So, you can avoid multiple validations in the middle of the development flux.
 
 const SomeDevelopment = {
   getValues: () => {
-    const defaultValues = {
-      // <--- this is the NullObject
+    const defaultValues = { /* this is the NullObject */
       value1: defaultValue1,
       value2: defaultValue2
     };
